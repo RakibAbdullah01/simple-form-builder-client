@@ -1,0 +1,22 @@
+.form-maker{
+    width: 80%;
+    margin: 30px auto;
+    form{
+        border: 1px solid cyan;
+        border-radius: 5px;
+        .form-title{
+            background-color:cyan ;
+            padding: 10px;
+        }
+        fieldset{
+            width: 100%;
+            padding: 10px;
+            input, textarea{
+                width: 100% !important;
+            }
+        }
+        .submit-btn{
+            margin: 10px;
+        }
+    }
+}

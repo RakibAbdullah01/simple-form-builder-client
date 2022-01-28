@@ -1,0 +1,19 @@
+nav {
+  background-color: rgb(45, 111, 233);
+  padding: 15px 50px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  .navbar-left a:hover {
+    color: #fff;
+  }
+  .navbar-right a {
+    margin-right: 15px;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
